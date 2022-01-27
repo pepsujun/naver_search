@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1052</width>
-    <height>824</height>
+    <width>1301</width>
+    <height>851</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -59,10 +59,10 @@
    <widget class="QWebEngineView" name="naver_blog_view">
     <property name="geometry">
      <rect>
-      <x>330</x>
-      <y>-1</y>
-      <width>721</width>
-      <height>771</height>
+      <x>320</x>
+      <y>0</y>
+      <width>981</width>
+      <height>801</height>
      </rect>
     </property>
     <property name="url">
@@ -77,7 +77,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1052</width>
+     <width>1301</width>
      <height>25</height>
     </rect>
    </property>
