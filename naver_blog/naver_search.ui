@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1437</width>
-    <height>994</height>
+    <width>1517</width>
+    <height>1031</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,7 +17,7 @@
    <widget class="QPushButton" name="search_button">
     <property name="geometry">
      <rect>
-      <x>210</x>
+      <x>220</x>
       <y>50</y>
       <width>75</width>
       <height>23</height>
@@ -28,22 +28,6 @@
     </property>
     <property name="text">
      <string>검색</string>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="naver_search_text">
-    <property name="geometry">
-     <rect>
-      <x>30</x>
-      <y>50</y>
-      <width>181</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="cursor">
-     <cursorShape>ArrowCursor</cursorShape>
-    </property>
-    <property name="inputMask">
-     <string/>
     </property>
    </widget>
    <widget class="QListWidget" name="text_list">
@@ -59,9 +43,9 @@
    <widget class="QWebEngineView" name="search_view">
     <property name="geometry">
      <rect>
-      <x>290</x>
-      <y>-50</y>
-      <width>1141</width>
+      <x>330</x>
+      <y>0</y>
+      <width>1181</width>
       <height>1001</height>
      </rect>
     </property>
@@ -110,13 +94,23 @@
      <string>구글</string>
     </property>
    </widget>
+   <widget class="QTextEdit" name="search_text">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>50</y>
+      <width>191</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1437</width>
+     <width>1517</width>
      <height>25</height>
     </rect>
    </property>
